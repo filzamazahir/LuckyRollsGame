@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9011FB1C4584B300D985B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9011FA1C4584B300D985B0 /* AppDelegate.swift */; };
+		3C9011FD1C4584B300D985B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9011FC1C4584B300D985B0 /* ViewController.swift */; };
+		3C9012001C4584B300D985B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9011FE1C4584B300D985B0 /* Main.storyboard */; };
+		3C9012021C4584B300D985B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9012011C4584B300D985B0 /* Assets.xcassets */; };
+		3C9012051C4584B300D985B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9012031C4584B300D985B0 /* LaunchScreen.storyboard */; };
+		3C9012101C4584B400D985B0 /* Lucky_RollsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90120F1C4584B400D985B0 /* Lucky_RollsTests.swift */; };
+		3C90121B1C4584B400D985B0 /* Lucky_RollsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90121A1C4584B400D985B0 /* Lucky_RollsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C90120C1C4584B400D985B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9011EF1C4584B300D985B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9011F61C4584B300D985B0;
+			remoteInfo = "Lucky Rolls";
+		};
+		3C9012171C4584B400D985B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9011EF1C4584B300D985B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9011F61C4584B300D985B0;
+			remoteInfo = "Lucky Rolls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9011F71C4584B300D985B0 /* Lucky Rolls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucky Rolls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9011FA1C4584B300D985B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C9011FC1C4584B300D985B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C9011FF1C4584B300D985B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C9012011C4584B300D985B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9012041C4584B300D985B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C9012061C4584B300D985B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C90120B1C4584B400D985B0 /* Lucky RollsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky RollsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C90120F1C4584B400D985B0 /* Lucky_RollsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_RollsTests.swift; sourceTree = "<group>"; };
+		3C9012111C4584B400D985B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9012161C4584B400D985B0 /* Lucky RollsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky RollsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C90121A1C4584B400D985B0 /* Lucky_RollsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_RollsUITests.swift; sourceTree = "<group>"; };
+		3C90121C1C4584B400D985B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9011F41C4584B300D985B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9012081C4584B400D985B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9012131C4584B400D985B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9011EE1C4584B300D985B0 = {
+			isa = PBXGroup;
+			children = (
+				3C9011F91C4584B300D985B0 /* Lucky Rolls */,
+				3C90120E1C4584B400D985B0 /* Lucky RollsTests */,
+				3C9012191C4584B400D985B0 /* Lucky RollsUITests */,
+				3C9011F81C4584B300D985B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9011F81C4584B300D985B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9011F71C4584B300D985B0 /* Lucky Rolls.app */,
+				3C90120B1C4584B400D985B0 /* Lucky RollsTests.xctest */,
+				3C9012161C4584B400D985B0 /* Lucky RollsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9011F91C4584B300D985B0 /* Lucky Rolls */ = {
+			isa = PBXGroup;
+			children = (
+				3C9011FA1C4584B300D985B0 /* AppDelegate.swift */,
+				3C9011FC1C4584B300D985B0 /* ViewController.swift */,
+				3C9011FE1C4584B300D985B0 /* Main.storyboard */,
+				3C9012011C4584B300D985B0 /* Assets.xcassets */,
+				3C9012031C4584B300D985B0 /* LaunchScreen.storyboard */,
+				3C9012061C4584B300D985B0 /* Info.plist */,
+			);
+			path = "Lucky Rolls";
+			sourceTree = "<group>";
+		};
+		3C90120E1C4584B400D985B0 /* Lucky RollsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C90120F1C4584B400D985B0 /* Lucky_RollsTests.swift */,
+				3C9012111C4584B400D985B0 /* Info.plist */,
+			);
+			path = "Lucky RollsTests";
+			sourceTree = "<group>";
+		};
+		3C9012191C4584B400D985B0 /* Lucky RollsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C90121A1C4584B400D985B0 /* Lucky_RollsUITests.swift */,
+				3C90121C1C4584B400D985B0 /* Info.plist */,
+			);
+			path = "Lucky RollsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9011F61C4584B300D985B0 /* Lucky Rolls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C90121F1C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky Rolls" */;
+			buildPhases = (
+				3C9011F31C4584B300D985B0 /* Sources */,
+				3C9011F41C4584B300D985B0 /* Frameworks */,
+				3C9011F51C4584B300D985B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lucky Rolls";
+			productName = "Lucky Rolls";
+			productReference = 3C9011F71C4584B300D985B0 /* Lucky Rolls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C90120A1C4584B400D985B0 /* Lucky RollsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9012221C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky RollsTests" */;
+			buildPhases = (
+				3C9012071C4584B400D985B0 /* Sources */,
+				3C9012081C4584B400D985B0 /* Frameworks */,
+				3C9012091C4584B400D985B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C90120D1C4584B400D985B0 /* PBXTargetDependency */,
+			);
+			name = "Lucky RollsTests";
+			productName = "Lucky RollsTests";
+			productReference = 3C90120B1C4584B400D985B0 /* Lucky RollsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C9012151C4584B400D985B0 /* Lucky RollsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9012251C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky RollsUITests" */;
+			buildPhases = (
+				3C9012121C4584B400D985B0 /* Sources */,
+				3C9012131C4584B400D985B0 /* Frameworks */,
+				3C9012141C4584B400D985B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9012181C4584B400D985B0 /* PBXTargetDependency */,
+			);
+			name = "Lucky RollsUITests";
+			productName = "Lucky RollsUITests";
+			productReference = 3C9012161C4584B400D985B0 /* Lucky RollsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9011EF1C4584B300D985B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Filza Mazahir";
+				TargetAttributes = {
+					3C9011F61C4584B300D985B0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3C90120A1C4584B400D985B0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3C9011F61C4584B300D985B0;
+					};
+					3C9012151C4584B400D985B0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3C9011F61C4584B300D985B0;
+					};
+				};
+			};
+			buildConfigurationList = 3C9011F21C4584B300D985B0 /* Build configuration list for PBXProject "Lucky Rolls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9011EE1C4584B300D985B0;
+			productRefGroup = 3C9011F81C4584B300D985B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9011F61C4584B300D985B0 /* Lucky Rolls */,
+				3C90120A1C4584B400D985B0 /* Lucky RollsTests */,
+				3C9012151C4584B400D985B0 /* Lucky RollsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9011F51C4584B300D985B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9012051C4584B300D985B0 /* LaunchScreen.storyboard in Resources */,
+				3C9012021C4584B300D985B0 /* Assets.xcassets in Resources */,
+				3C9012001C4584B300D985B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9012091C4584B400D985B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9012141C4584B400D985B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9011F31C4584B300D985B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9011FD1C4584B300D985B0 /* ViewController.swift in Sources */,
+				3C9011FB1C4584B300D985B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9012071C4584B400D985B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9012101C4584B400D985B0 /* Lucky_RollsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9012121C4584B400D985B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90121B1C4584B400D985B0 /* Lucky_RollsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C90120D1C4584B400D985B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9011F61C4584B300D985B0 /* Lucky Rolls */;
+			targetProxy = 3C90120C1C4584B400D985B0 /* PBXContainerItemProxy */;
+		};
+		3C9012181C4584B400D985B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9011F61C4584B300D985B0 /* Lucky Rolls */;
+			targetProxy = 3C9012171C4584B400D985B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C9011FE1C4584B300D985B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9011FF1C4584B300D985B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C9012031C4584B300D985B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9012041C4584B300D985B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C90121D1C4584B400D985B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C90121E1C4584B400D985B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9012201C4584B400D985B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lucky Rolls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-Rolls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C9012211C4584B400D985B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lucky Rolls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-Rolls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C9012231C4584B400D985B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lucky RollsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-RollsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucky Rolls.app/Lucky Rolls";
+			};
+			name = Debug;
+		};
+		3C9012241C4584B400D985B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lucky RollsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-RollsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lucky Rolls.app/Lucky Rolls";
+			};
+			name = Release;
+		};
+		3C9012261C4584B400D985B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lucky RollsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-RollsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lucky Rolls";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C9012271C4584B400D985B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lucky RollsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-RollsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lucky Rolls";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9011F21C4584B300D985B0 /* Build configuration list for PBXProject "Lucky Rolls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C90121D1C4584B400D985B0 /* Debug */,
+				3C90121E1C4584B400D985B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C90121F1C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky Rolls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9012201C4584B400D985B0 /* Debug */,
+				3C9012211C4584B400D985B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C9012221C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky RollsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9012231C4584B400D985B0 /* Debug */,
+				3C9012241C4584B400D985B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C9012251C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky RollsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9012261C4584B400D985B0 /* Debug */,
+				3C9012271C4584B400D985B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9011EF1C4584B300D985B0 /* Project object */;
+}
