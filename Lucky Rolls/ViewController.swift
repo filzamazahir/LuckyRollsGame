@@ -19,18 +19,22 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var rollThreshold: UIProgressView!
     @IBOutlet weak var rollButtonOutlet: UIButton!
-    
+    @IBOutlet weak var startBtnOutlet: UIButton!
+    @IBOutlet weak var resetBtnOutlet: UIButton!
     
     @IBOutlet weak var roll1Label: UILabel!
     @IBOutlet weak var roll2Label: UILabel!
     
     @IBOutlet weak var stepsLabel: UILabel!
     
+    
     @IBOutlet weak var rollStrengthLabel: UILabel!
     var countDoubleRoll = 0
     
     @IBAction func startButton(sender: AnyObject) {
         print ("Start pressed")
+        startBtnOutlet.enabled = false
+        rollButtonOutlet.hidden = false
         rollButtonOutlet.enabled = true
         gridSquares[0].backgroundColor = UIColor.init(red: 0, green: 255, blue: 255, alpha: 0.5)
     }
@@ -43,8 +47,9 @@ class ViewController: UIViewController {
         roll2Label.text = "0"
         stepsLabel.text = ""
         rollStrengthLabel.text = ""
-        
+        startBtnOutlet.enabled = true
         rollThreshold.progress = 0
+        rollButtonOutlet.hidden = false
         rollButtonOutlet.enabled = false
         stepsLabel.hidden = true
         rollStrengthLabel.hidden = true
@@ -53,7 +58,7 @@ class ViewController: UIViewController {
             each.backgroundColor = UIColor.yellowColor()
         }
         
-        gridSquares[0].backgroundColor = UIColor.init(red: 0, green: 255, blue: 255, alpha: 0.5)
+//        gridSquares[0].backgroundColor = UIColor.init(red: 0, green: 255, blue: 255, alpha: 0.5)
         
         
         
@@ -72,6 +77,7 @@ class ViewController: UIViewController {
         
         if motionManager.deviceMotionAvailable{
             motionManager.deviceMotionUpdateInterval = 0.02
+            resetBtnOutlet.enabled = false
             motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler: {data, error in
                 
                 let yAccel = data!.userAcceleration.y
@@ -146,12 +152,12 @@ class ViewController: UIViewController {
     
     func updateUI () {
         stepsLabel.hidden = false
-        gridSquares[game.playerPosition-1].backgroundColor = UIColor.yellowColor()
+        gridSquares[game.playerPosition-1].backgroundColor = UIColor.lightGrayColor()
         
         game.updatePlayerPosition()
-        let steps = game.die1 - game.die2
-        
+       
         //update labels
+        let steps = game.die1 - game.die2
         if steps >= 0 {
             stepsLabel.text = "Move \(steps) forward!"
         }
@@ -160,13 +166,15 @@ class ViewController: UIViewController {
         }
         
         // If game is over
-        if steps+game.playerPosition >= 25 {
-            rollButtonOutlet.enabled = false
+        if game.playerPosition == 25 {
+            rollButtonOutlet.hidden = true
             rollStrengthLabel.hidden = true
-            stepsLabel.text = "Game Over! You won!"
+            stepsLabel.text = "Game Over! You won in \(game.turnCount) turns!"
         }
         
+        
         gridSquares[game.playerPosition-1].backgroundColor = UIColor.init(red: 0, green: 255, blue: 255, alpha: 0.5)
+        resetBtnOutlet.enabled = true
     }
 
     

@@ -13,12 +13,14 @@ class LuckyRollsGame {
     var playerPosition: Int
     var die1: Int
     var die2: Int
+    var turnCount: Int
     
     init() {
         rollNum = 1
         playerPosition = 1
         die1 = 0
         die2 = 0
+        turnCount = 0
     }
     
     
@@ -34,10 +36,12 @@ class LuckyRollsGame {
     func resetGame() {
         playerPosition = 1
         rollNum = 1
+        turnCount = 0
     }
     
     func updatePlayerPosition(){
         let steps = die1 - die2
+        turnCount++
         
         //check edge cases
         if -steps > playerPosition-1 {

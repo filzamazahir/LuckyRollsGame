@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					3C9011F61C4584B300D985B0 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 4PW6538QK6;
+						DevelopmentTeam = 5Q7JKYA44W;
 					};
 					3C90120A1C4584B400D985B0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -495,6 +495,7 @@
 				3C9012211C4584B400D985B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9012221C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky RollsTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +504,7 @@
 				3C9012241C4584B400D985B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C9012251C4584B400D985B0 /* Build configuration list for PBXNativeTarget "Lucky RollsUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +513,7 @@
 				3C9012271C4584B400D985B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
