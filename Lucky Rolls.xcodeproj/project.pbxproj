@@ -14,6 +14,7 @@
 		3C9012051C4584B300D985B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9012031C4584B300D985B0 /* LaunchScreen.storyboard */; };
 		3C9012101C4584B400D985B0 /* Lucky_RollsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90120F1C4584B400D985B0 /* Lucky_RollsTests.swift */; };
 		3C90121B1C4584B400D985B0 /* Lucky_RollsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90121A1C4584B400D985B0 /* Lucky_RollsUITests.swift */; };
+		3C9012291C45C67D00D985B0 /* LuckyRollsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9012281C45C67D00D985B0 /* LuckyRollsGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C9012161C4584B400D985B0 /* Lucky RollsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky RollsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C90121A1C4584B400D985B0 /* Lucky_RollsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_RollsUITests.swift; sourceTree = "<group>"; };
 		3C90121C1C4584B400D985B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9012281C45C67D00D985B0 /* LuckyRollsGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyRollsGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3C9012011C4584B300D985B0 /* Assets.xcassets */,
 				3C9012031C4584B300D985B0 /* LaunchScreen.storyboard */,
 				3C9012061C4584B300D985B0 /* Info.plist */,
+				3C9012281C45C67D00D985B0 /* LuckyRollsGame.swift */,
 			);
 			path = "Lucky Rolls";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3C9011F61C4584B300D985B0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4PW6538QK6;
 					};
 					3C90120A1C4584B400D985B0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -258,6 +262,7 @@
 			files = (
 				3C9011FD1C4584B300D985B0 /* ViewController.swift in Sources */,
 				3C9011FB1C4584B300D985B0 /* AppDelegate.swift in Sources */,
+				3C9012291C45C67D00D985B0 /* LuckyRollsGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Lucky Rolls/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-Rolls";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Lucky Rolls/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.filza.Lucky-Rolls";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
